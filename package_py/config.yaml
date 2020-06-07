@@ -1,0 +1,11 @@
+cat:
+  name: kitty
+  color: pink
+  age: 1
+  gender: female
+
+dog:
+  name: Snoopy
+  color: white
+  age: 1
+  gender: male

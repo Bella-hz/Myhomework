@@ -2,6 +2,7 @@
 # coding = utf-8
 # __author__ = 'wyn'
 # Filename: animal.py
+import yaml
 
 
 class Animal(object):
@@ -64,7 +65,11 @@ if __name__ == '__main__':
     - 调用【会看家】的方法
     - 打印【狗狗的姓名，颜色，年龄，性别，毛发】
     """
-    cat = Cat('kitty', 'pink', 1, 'female')
+    with open('config.yaml') as file:
+        config = yaml.load(file)
+    cat_attributes = config['cat']
+    dog_attributes = config['dog']
+    cat = Cat(cat_attributes['name'], cat_attributes['color'], cat_attributes['age'], cat_attributes['gender'])
     cat.can_catch_mouse()
-    dog = Dog('Snoopy', 'white', 2, 'male')
+    dog = Dog(dog_attributes['name'], dog_attributes['color'], dog_attributes['age'], dog_attributes['gender'])
     dog.can_care_home()
