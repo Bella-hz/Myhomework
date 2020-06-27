@@ -1,0 +1,209 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1592029796519" stop="1592029796773">
+  <name>calculator</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1592029796519" status="passed" stop="1592029796529">
+      <name>calculator_test.TestCal.test_add[1-2-3]</name>
+      <attachments>
+        <attachment source="098ab0be-da08-44fc-822b-0e5d077ae037-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="22b385e5-3f16-485d-8359-34d2f375ec9f-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796538" status="failed" stop="1592029796554">
+      <name>calculator_test.TestCal.test_add[3-5-1]</name>
+      <failure>
+        <message>AssertionError: assert 8 == 1
+ +  where 8 = &lt;bound method Calculate.add of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(3, 5)
+ +    where &lt;bound method Calculate.add of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x108328a00&gt;.add</message>
+        <stack-trace>self = &lt;calculator.calculator_test.TestCal object at 0x108328a30&gt;, create_cal = &lt;calculator.calculator.Calculate object at 0x108328a00&gt;, a = 3, b = 5, result = 1
+
+    @pytest.mark.parametrize(('a', 'b', 'result'), testdata['add'])
+    def test_add(self, create_cal, a, b, result):
+        if isinstance(a, int) and 1 == len({type(a), type(b), type(result)}):
+            print(f'{a}+{b}={result}')
+&gt;           assert create_cal.add(a, b) == result
+E           AssertionError: assert 8 == 1
+E            +  where 8 = &lt;bound method Calculate.add of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(3, 5)
+E            +    where &lt;bound method Calculate.add of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x108328a00&gt;.add
+
+calculator/calculator_test.py:20: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="5030d0db-4fc0-4193-a0e9-ae3bdfb62084-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="142aca15-6548-4461-b497-f96174741555-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796644" status="passed" stop="1592029796651">
+      <name>calculator_test.TestCal.test_sub[5-3-2]</name>
+      <attachments>
+        <attachment source="9423d011-b87f-4b54-bdff-b8cce4b46998-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="e4634511-2c5d-469a-b278-a5445840a862-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796660" status="failed" stop="1592029796670">
+      <name>calculator_test.TestCal.test_sub[8-2-5]</name>
+      <failure>
+        <message>AssertionError: assert 6 == 5
+ +  where 6 = &lt;bound method Calculate.sub of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(8, 2)
+ +    where &lt;bound method Calculate.sub of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x10a1ebee0&gt;.sub</message>
+        <stack-trace>self = &lt;calculator.calculator_test.TestCal object at 0x10a1ebe20&gt;, create_cal = &lt;calculator.calculator.Calculate object at 0x10a1ebee0&gt;, a = 8, b = 2, result = 5
+
+    @pytest.mark.parametrize(('a', 'b', 'result'), testdata['sub'])
+    def test_sub(self, create_cal, a, b, result):
+        if isinstance(a, int) and 1 == len({type(a), type(b), type(result)}):
+            print(f'{a}-{b}={result}')
+&gt;           assert create_cal.sub(a, b) == result
+E           AssertionError: assert 6 == 5
+E            +  where 6 = &lt;bound method Calculate.sub of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(8, 2)
+E            +    where &lt;bound method Calculate.sub of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x10a1ebee0&gt;.sub
+
+calculator/calculator_test.py:26: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="1209142d-9dbb-4437-aaf0-ea1b04bc0210-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="f0d39d25-0a81-4b6c-b443-20724cb2756e-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796684" status="passed" stop="1592029796691">
+      <name>calculator_test.TestCal.test_mul[3-5-15]</name>
+      <attachments>
+        <attachment source="86d10e33-3e44-4a20-a748-0b48ca0ddd8e-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="607f1b21-5c35-476c-bdd9-7547e22346f7-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796700" status="failed" stop="1592029796711">
+      <name>calculator_test.TestCal.test_mul[5-6-29]</name>
+      <failure>
+        <message>AssertionError: assert 30 == 29
+ +  where 30 = &lt;bound method Calculate.mul of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(5, 6)
+ +    where &lt;bound method Calculate.mul of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x10a1d4a60&gt;.mul</message>
+        <stack-trace>self = &lt;calculator.calculator_test.TestCal object at 0x10a1d49d0&gt;, create_cal = &lt;calculator.calculator.Calculate object at 0x10a1d4a60&gt;, a = 5, b = 6, result = 29
+
+    @pytest.mark.parametrize(('a', 'b', 'result'), testdata['mul'])
+    def test_mul(self, create_cal, a, b, result):
+        if isinstance(a, int) and 1 == len({type(a), type(b), type(result)}):
+            print(f'{a}*{b}={result}')
+&gt;           assert create_cal.mul(a, b) == result
+E           AssertionError: assert 30 == 29
+E            +  where 30 = &lt;bound method Calculate.mul of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(5, 6)
+E            +    where &lt;bound method Calculate.mul of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x10a1d4a60&gt;.mul
+
+calculator/calculator_test.py:32: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="52fd6b7a-2418-44e6-b62c-b1ab7be7a1ab-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="13b67c19-601e-46a3-9f77-bdc3fe461ec1-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796725" status="passed" stop="1592029796732">
+      <name>calculator_test.TestCal.test_div[10-2-5]</name>
+      <attachments>
+        <attachment source="b6f87c88-5433-4f40-8469-fade67cf805d-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="7ff4963d-ba92-4fed-b925-f6b4afbe3ab9-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796741" status="failed" stop="1592029796752">
+      <name>calculator_test.TestCal.test_div[10-2-4]</name>
+      <failure>
+        <message>AssertionError: assert 5.0 == 4
+ +  where 5.0 = &lt;bound method Calculate.div of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(10, 2)
+ +    where &lt;bound method Calculate.div of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x10a228070&gt;.div</message>
+        <stack-trace>self = &lt;calculator.calculator_test.TestCal object at 0x10a228490&gt;, create_cal = &lt;calculator.calculator.Calculate object at 0x10a228070&gt;, a = 10, b = 2, result = 4
+
+    @pytest.mark.parametrize(('a', 'b', 'result'), testdata['div'])
+    def test_div(self, create_cal, a, b, result):
+        if isinstance(a, int) and 1 == len({type(a), type(b), type(result)}):
+            print(f'{a}/{b}={result}')
+&gt;           assert create_cal.div(a, b) == result
+E           AssertionError: assert 5.0 == 4
+E            +  where 5.0 = &lt;bound method Calculate.div of &lt;class 'calculator.calculator.Calculate'&gt;&gt;(10, 2)
+E            +    where &lt;bound method Calculate.div of &lt;class 'calculator.calculator.Calculate'&gt;&gt; = &lt;calculator.calculator.Calculate object at 0x10a228070&gt;.div
+
+calculator/calculator_test.py:38: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="5b4afe39-78fb-4b57-9822-a4fe5ff709cc-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="9e9addfc-f510-4328-a550-86ea27e8187e-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1592029796765" status="passed" stop="1592029796773">
+      <name>calculator_test.TestCal.test_div[10-0-0]</name>
+      <attachments>
+        <attachment source="a849d2a7-8db3-495d-8bc1-4d8747d7a8a8-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="c04a865c-d455-4577-95f6-264193cb22f9-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10810-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

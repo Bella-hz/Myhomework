@@ -1,0 +1,234 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1593255255663" stop="1593255256010">
+  <name>calculator</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1593255255663" status="passed" stop="1593255255671">
+      <name>calculator_test.TestCal.test_add[1-2-3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255684" status="passed" stop="1593255255689">
+      <name>calculator_test.TestCal.test_add[-3--5--8]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255701" status="passed" stop="1593255255709">
+      <name>calculator_test.TestCal.test_add[0.123-0.235-0.358]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255720" status="passed" stop="1593255255726">
+      <name>calculator_test.TestCal.test_add[-3-0--3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255738" status="passed" stop="1593255255744">
+      <name>calculator_test.TestCal.test_add[999999999-1-1000000000]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255756" status="passed" stop="1593255255763">
+      <name>calculator_test.TestCal.test_sub[5-3-2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255775" status="passed" stop="1593255255781">
+      <name>calculator_test.TestCal.test_sub[-8--6--2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255793" status="passed" stop="1593255255799">
+      <name>calculator_test.TestCal.test_sub[0.987-0.567-0.42]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255811" status="passed" stop="1593255255818">
+      <name>calculator_test.TestCal.test_sub[0-6--6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255830" status="passed" stop="1593255255837">
+      <name>calculator_test.TestCal.test_sub[1000000000-9-999999991]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255848" status="passed" stop="1593255255855">
+      <name>calculator_test.TestCal.test_mul[3-5-15]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255866" status="passed" stop="1593255255872">
+      <name>calculator_test.TestCal.test_mul[0-6-0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255884" status="passed" stop="1593255255890">
+      <name>calculator_test.TestCal.test_mul[1.5-1.4-2.1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255901" status="passed" stop="1593255255909">
+      <name>calculator_test.TestCal.test_mul[999999999-1-999999999]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255920" status="passed" stop="1593255255927">
+      <name>calculator_test.TestCal.test_mul[-1--9-9]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255938" status="passed" stop="1593255255946">
+      <name>calculator_test.TestCal.test_div[10-2-5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255959" status="passed" stop="1593255255965">
+      <name>calculator_test.TestCal.test_div[10-2.5-4.0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255255976" status="passed" stop="1593255255984">
+      <name>calculator_test.TestCal.test_div[0-10-0.0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1593255256000" status="passed" stop="1593255256010">
+      <name>calculator_test.TestCal.test_div[16--4--4.0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19531-MainThread"/>
+        <label name="host" value="wangyndeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
